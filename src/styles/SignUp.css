@@ -1,0 +1,37 @@
+.container{
+    max-width: 400px;
+    margin : 150px auto;
+    padding: 50px;
+    background-color: azure;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    text-align: center;
+}
+label{
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.form-control{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 100%;
+    
+}
+
+.btn-primary{
+    margin-top: 10%;
+    width: 100%;
+    background-color: blue;
+    border: none;
+    color: white;
+}
